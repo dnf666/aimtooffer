@@ -33,7 +33,6 @@ public class LinkToArrayFromEndToStart {
 
     public static ArrayList<Integer> printListFromTailToHead(ListNode listNode) {
         ListNode head = listNode;
-        ListNode head1 = listNode;
         ArrayList<Integer> list = new ArrayList<Integer>();
         while (head != null) {
             list.add(head.val);
